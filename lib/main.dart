@@ -17,8 +17,9 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Center(
-        child: Text(
+      body:
+       Center(
+        /* child: Text(
           'Hello World',
           style: TextStyle(
             fontSize: 20.0,
@@ -27,6 +28,10 @@ class Home extends StatelessWidget {
             color: Colors.grey[600],
             fontFamily: 'IndieFlower',
           ),
+        ), */
+        child: Image(
+          image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRCYd_pzMIGZLYhBZQ6xawKlsnulKqYME61Iu7t0rZVZejN0DtxNscTIbicfyQGiUZ7OY&usqp=CAU'),
+          
         ),
       ),
       floatingActionButton: FloatingActionButton(
