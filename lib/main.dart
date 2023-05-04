@@ -30,7 +30,7 @@ class Home extends StatelessWidget {
           ),
         ), */
         child: Image(
-          image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRCYd_pzMIGZLYhBZQ6xawKlsnulKqYME61Iu7t0rZVZejN0DtxNscTIbicfyQGiUZ7OY&usqp=CAU'),
+          image: AssetImage('assets/images.jpg')
           
         ),
       ),
