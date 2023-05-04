@@ -31,12 +31,26 @@ class Home extends StatelessWidget {
         ), */
         // child: Image.network('https://media.licdn.com/dms/image/C4E0BAQGlUAfHhcwifg/company-logo_200_200/0/1676284773816?e=2147483647&v=beta&t=XXBzNO3ts9k64MxI5r0j9Yz9OxFpFn7bSGEuRgRQ_r0'),
 
-        child: Icon(
+       /*  child: Icon(
           Icons.add_a_photo,
           color: Colors.red[600],
           size: 50.0,
-          
-        )
+
+        ) */
+
+         child: ElevatedButton(
+
+            onPressed: () {
+              print('You clicked me');
+            },
+            child: Text('Click Me'),
+            style: ElevatedButton.styleFrom(
+              primary: Colors.red[600],
+              onPrimary: Colors.white,
+              elevation: 10.0,
+            ),
+         )
+
 
       ),
       floatingActionButton: FloatingActionButton(
