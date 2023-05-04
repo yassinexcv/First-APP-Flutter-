@@ -38,17 +38,18 @@ class Home extends StatelessWidget {
 
         ) */
 
-         child: ElevatedButton(
-
-            onPressed: () {
-              print('You clicked me');
-            },
-            child: Text('Click Me'),
-            style: ElevatedButton.styleFrom(
-              primary: Colors.red[600],
-              onPrimary: Colors.white,
-              elevation: 10.0,
-            ),
+         child: ElevatedButton.icon(
+           onPressed: () {
+             print('You clicked me');
+           },
+           icon: Icon(
+             Icons.mail
+           ),
+           label: Text('Mail Me'),
+           style: ElevatedButton.styleFrom(
+             primary: Colors.amber,
+             onPrimary: Colors.white,
+           ),
          )
 
 
