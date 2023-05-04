@@ -29,10 +29,15 @@ class Home extends StatelessWidget {
             fontFamily: 'IndieFlower',
           ),
         ), */
-        child: Image(
-          image: AssetImage('assets/images.jpg')
+        // child: Image.network('https://media.licdn.com/dms/image/C4E0BAQGlUAfHhcwifg/company-logo_200_200/0/1676284773816?e=2147483647&v=beta&t=XXBzNO3ts9k64MxI5r0j9Yz9OxFpFn7bSGEuRgRQ_r0'),
+
+        child: Icon(
+          Icons.add_a_photo,
+          color: Colors.red[600],
+          size: 50.0,
           
-        ),
+        )
+
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
@@ -41,4 +46,4 @@ class Home extends StatelessWidget {
       ),
     );
   }
-}
+} 
